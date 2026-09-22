@@ -1,0 +1,13 @@
+# Illustrative excerpt, not a complete wire message. Identifiers are generic.
+REGISTER sip:192.168.10.150 SIP/2.0
+Via: SIP/2.0/TCP 192.168.20.51:62034;branch=<example-branch>
+From: <sip:2102@192.168.10.150>;tag=<example-tag>
+To: <sip:2102@192.168.10.150>
+Call-ID: <example-registration-id>
+CSeq: 101 REGISTER
+Expires: 3600
+
+# Matching response fields observed at frame 2029:
+SIP/2.0 200 OK
+CSeq: 101 REGISTER
+Expires: 120

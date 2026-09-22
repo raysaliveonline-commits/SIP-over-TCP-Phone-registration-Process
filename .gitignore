@@ -1,0 +1,17 @@
+# Keep raw captures, certificates, configuration binaries and local secrets out.
+*.pcap
+*.pcapng
+*.cap
+*.etl
+*.tlv
+*.sgn
+*.cer
+*.crt
+*.pem
+*.key
+*.pfx
+*.p12
+.env
+.env.*
+private/
+captures/
