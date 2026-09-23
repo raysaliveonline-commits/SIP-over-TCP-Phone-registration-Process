@@ -35,6 +35,8 @@ Use your own actual adapter MAC for your lab device record. Do not change your n
 4. [Tcp And Sip Exercises](docs/04-tcp-and-sip-exercises.md)
 5. [Troubleshooting](docs/05-troubleshooting.md)
 6. [Sources](docs/06-sources.md)
+7. [OSI story: Extension 2102 rides TCP](story/README.md)
+8. [Story Wireshark profile and filters](story/wireshark-filters.md)
 
 [PowerShell inspection script](scripts/Inspect-CipcTcp.ps1) · [Sanitized SIP example](examples/register-sanitized.txt)
 
